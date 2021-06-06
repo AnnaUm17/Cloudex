@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloudex</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
             <img class="header-logo" src="./img/Group5.png" alt="">
-            <nav class="menu">
-                <a class="menu__item">Features</a>
-                <a class="menu__item">Contact</a>
-                <a class="menu__item">FAQ</a>
-                <a class="menu__item">Support</a>
-                <img class="menu__icon" src="./img/Vector.png" alt="">
-                <img class="menu__icon" src="./img/Vector-2.png" alt="">
-            </nav>
+            <div class="burger">
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__mobile" for="menu__toggle">
+                    <span></span>
+                    </label>
+                <nav class="menu">
+                    <a class="menu__item">Features</a>
+                    <a class="menu__item">Contact</a>
+                    <a class="menu__item">FAQ</a>
+                    <a class="menu__item">Support</a>
+                    <img class="menu__icon" src="./img/Vector.png" alt="">
+                    <img class="menu__icon" src="./img/Vector-2.png" alt="">
+                </nav>
+            </div>
         </header>
         <main class="main">
             <section class="description">
@@ -25,8 +33,7 @@
                     Unlimited access. To all your data. Totally free.
                 </div>
                 <div class="description__text">
-                    Secure unlimited File Sharing and Storage for your Business. Absolutely Free!
-                    Iterate In Real Time. Comment With Style. Share Instantly.
+                    Secure unlimited File Sharing and Storage for your Business. Absolutely Free! Iterate In Real Time. Comment With Style. Share Instantly.
                 </div>
             </section>
             <section class="props">
@@ -43,4 +50,5 @@
         <footer class="footer"></footer>
     </div>
 </body>
+
 </html>
