@@ -48,7 +48,7 @@ body {
 .main {
     display: flex;
     width: 100%;
-    background: right bottom / 60.3vw 39.7vw no-repeat url(./img/Vector-4.png), right bottom / 52.5vw 33.5vw no-repeat url(./img/Vector-3.png);
+    background: right bottom -23px no-repeat url(./img/Vector-4.png), right bottom -23px no-repeat url(./img/Vector-3.png);
 }
 
 .description {
@@ -199,7 +199,7 @@ body {
         margin-right: 1.7vw;
     }
     .main {
-        background: right bottom / 58vw 41vw no-repeat url(./img/1366Vector.png), right bottom / 45.5vw 18.1vw no-repeat url(./img/1366Vector-2.png);
+        background: right bottom -25px no-repeat url(./img/1366Vector.png), right bottom -25px no-repeat url(./img/1366Vector-2.png);
     }
     .description {
         margin: 10.6vw 14.7vw 0 16.2vw;
@@ -265,7 +265,7 @@ body {
         margin-right: 5px;
     }
     .main {
-        background: right bottom / 61vw 54.5vw no-repeat url(./img/1024Vector.png), right bottom / 50vw 45vw no-repeat url(./img/1024Vector-2.png);
+        background: right bottom -25px no-repeat url(./img/1024Vector.png), right bottom -25px no-repeat url(./img/1024Vector-2.png);
     }
     .description {
         width: 39vw;
@@ -411,7 +411,7 @@ body {
         width: 80%;
         font-size: 16px;
         line-height: 19px;
-        padding-left: 33px;
+        margin: auto;
     }
     .props {
         width: 60vw;
@@ -434,7 +434,7 @@ body {
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
-        padding-left: 12px;
+        padding-left: 5px;
     }
     .form__button {
         height: 8vw;
