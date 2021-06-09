@@ -430,9 +430,22 @@ body {
         margin-bottom: 3.2vw;
         padding-top: 1px;
     }
-    input[type="email"]::placeholder {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+     ::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 5px;
+    }
+     ::-moz-placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 5px;
+    }
+     :-moz-placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 5px;
+    }
+     :-ms-input-placeholder {
         font-size: 14px;
         line-height: 16px;
         padding-left: 5px;
