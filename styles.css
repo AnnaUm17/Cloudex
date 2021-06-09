@@ -117,7 +117,7 @@ body {
 }
 
  ::-webkit-input-placeholder {
-    padding: 4vw 0 0 0.8vw;
+    padding: 0 0 0 0.8vw;
     line-height: 2vw;
     font-size: 1.1vw;
 }
